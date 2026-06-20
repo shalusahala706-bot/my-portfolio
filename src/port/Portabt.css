@@ -78,3 +78,18 @@
     font-size: 2rem;
   }
 }
+
+@media (max-width: 600px) {
+  .about-section {
+    padding: 60px 6%;
+  }
+
+  .about-container {
+    gap: 24px;
+  }
+
+  .about-image img {
+    max-width: 280px;
+    margin: 0 auto;
+  }
+}

@@ -160,3 +160,71 @@ body {
     gap: 15px;
   }
 }
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    height: auto;
+    padding: 12px 20px;
+    gap: 12px;
+  }
+
+  .nav-links {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .nav-links a,
+  .contact-btn {
+    display: block;
+    width: 100%;
+    text-align: left;
+    padding: 10px 12px;
+    border-radius: 8px;
+  }
+
+  .main {
+    padding: 0 4%;
+  }
+
+  .main-image {
+    max-width: 280px;
+    margin: 0 auto 24px;
+  }
+
+  .main-right p {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar {
+    padding: 10px 14px;
+  }
+
+  .logo-circle {
+    width: 45px;
+    height: 45px;
+  }
+
+  .about-link {
+    font-size: 0.95rem;
+  }
+
+  .main-image {
+    max-width: 220px;
+  }
+
+  .main-btn {
+    padding: 10px 20px;
+    font-size: 0.95rem;
+  }
+
+  .nav-links a,
+  .contact-btn {
+    font-size: 0.95rem;
+  }
+}
