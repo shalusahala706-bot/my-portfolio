@@ -27,32 +27,71 @@ const Port = () => {
       <section className="hero-section" id="home">
         <div className="hero-left">
           <h1>
-            Crafting Seamless
-            <br />
-            Digital <span className="highlight">Experiences</span>
+            Full Stack Developer<br />
+            Specializing in <span className="highlight">MERN Stack</span>
           </h1>
 
           <p className="hero-desc">
-            A passionate MERN Stack Developer crafting modern, scalable, and
-            high-performing web applications with beautiful UI and smooth user
-            experiences.
+            I build end-to-end web applications using MongoDB, Express.js, React, and Node.js. 
+            From responsive frontends to scalable backends, I create complete solutions that 
+            deliver exceptional user experiences and robust performance.
           </p>
 
+          <div className="tech-stack">
+            <div className="tech-item">
+              <span className="tech-icon">⚛️</span>
+              <span className="tech-name">React</span>
+            </div>
+            <div className="tech-item">
+              <span className="tech-icon">🟩</span>
+              <span className="tech-name">Node.js</span>
+            </div>
+            <div className="tech-item">
+              <span className="tech-icon">📦</span>
+              <span className="tech-name">Express</span>
+            </div>
+            <div className="tech-item">
+              <span className="tech-icon">🍃</span>
+              <span className="tech-name">MongoDB</span>
+            </div>
+          </div>
+
           <div className="hero-buttons">
-            <button className="btn-primary">Let's Talk</button>
+            <a href="#contact" className="btn-primary">Let's Talk</a>
           </div>
 
           <div className="connect-section">
             <p className="connect-label">CONNECT WITH ME</p>
             <div className="social-icons">
-              <a href="#" className="social-icon">
-                <i className="fab fa-github"></i>
-              </a>
-              <a href="#" className="social-icon">
+              <a 
+                href="https://www.linkedin.com/in/fathimath-sahala-327051304" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="social-icon"
+              >
                 <i className="fab fa-linkedin"></i>
               </a>
-              <a href="#" className="social-icon">
+              <a 
+                href="https://www.instagram.com/seeehla_?igsh=d2Y2ZzdoaXFibTR3" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="social-icon"
+              >
                 <i className="fab fa-instagram"></i>
+              </a>
+              <a 
+                href="https://github.com/shalusahala706-bot" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="social-icon"
+              >
+                <i className="fab fa-github"></i>
+              </a>
+              <a 
+                href="mailto:shalusahala706@gmail.com" 
+                className="social-icon"
+              >
+                <i className="fab fa-envelope"></i>
               </a>
             </div>
           </div>
@@ -61,13 +100,17 @@ const Port = () => {
         <div className="hero-right">
           <div className="profile-card">
             <img
-              src="/MY PHOTO.jpg"
+              src="/MY-PHOTO.jpeg"
               alt="Fathimath Sahala"
               className="profile-img"
             />
 
             <div className="floating-card card-1">
-              <p>Hi, I'm Fathimath Sahala</p>
+              <p>Full Stack Developer</p>
+            </div>
+
+            <div className="floating-card card-2">
+              <p>MERN Stack Expert</p>
             </div>
 
             <div className="decoration deco-1"></div>
@@ -85,15 +128,15 @@ const Port = () => {
 
         <div className="about-content">
           <p>
-            I'm a full-stack developer passionate about building beautiful,
-            functional web applications. With expertise in React, Node.js,
-            Express, and MongoDB, I create seamless digital experiences that
-            solve real problems.
+            I'm a passionate full-stack developer specializing in the MERN stack. 
+            I have a deep expertise in building modern, scalable web applications from 
+            scratch. My experience spans across frontend design, backend development, 
+            database management, and deployment.
           </p>
           <p>
-            My approach combines clean code, modern design principles, and a
-            deep understanding of user needs to deliver applications that are
-            not just functional, but delightful to use.
+            I'm committed to writing clean, maintainable code and following best practices 
+            in web development. Every project I build is crafted with attention to detail, 
+            user experience, and performance optimization.
           </p>
         </div>
       </section>
@@ -108,19 +151,25 @@ const Port = () => {
           <div className="skill-card">
             <div className="skill-icon">⚛️</div>
             <h3>Frontend Development</h3>
-            <p>React, HTML5, CSS3, JavaScript, Responsive Design</p>
+            <p>React, HTML5, CSS3, JavaScript, Redux, Responsive Design</p>
           </div>
 
           <div className="skill-card">
             <div className="skill-icon">⚙️</div>
             <h3>Backend Development</h3>
-            <p>Node.js, Express, REST APIs, Authentication</p>
+            <p>Node.js, Express, REST APIs, Authentication, Middleware</p>
           </div>
 
           <div className="skill-card">
             <div className="skill-icon">🗄️</div>
             <h3>Database</h3>
-            <p>MongoDB, Data Modeling, Database Optimization</p>
+            <p>MongoDB, Mongoose, Data Modeling, Optimization</p>
+          </div>
+
+          <div className="skill-card">
+            <div className="skill-icon">🚀</div>
+            <h3>Deployment</h3>
+            <p>Heroku, Vercel, Git, GitHub, CI/CD Basics</p>
           </div>
         </div>
       </section>
@@ -134,18 +183,32 @@ const Port = () => {
         <div className="portfolio-grid">
           <div className="portfolio-card">
             <div className="portfolio-image"></div>
-            <h3>Project One</h3>
-            <p>Financial Tracking Application with real-time updates</p>
+            <h3>E-Commerce Platform</h3>
+            <p>Full-featured e-commerce application with payment integration and real-time updates</p>
             <div className="tech-tags">
               <span>React</span>
-              <span>Express</span>
+              <span>Node.js</span>
+              <span>MongoDB</span>
+              <span>Stripe</span>
             </div>
           </div>
 
           <div className="portfolio-card">
             <div className="portfolio-image"></div>
-            <h3>Project Two</h3>
-            <p>Task management tool with collaborative features</p>
+            <h3>Real-Time Chat App</h3>
+            <p>Collaborative chat application with socket.io for instant messaging</p>
+            <div className="tech-tags">
+              <span>React</span>
+              <span>Socket.io</span>
+              <span>Express</span>
+              <span>MongoDB</span>
+            </div>
+          </div>
+
+          <div className="portfolio-card">
+            <div className="portfolio-image"></div>
+            <h3>Task Management Tool</h3>
+            <p>Collaborative project management platform with user authentication</p>
             <div className="tech-tags">
               <span>MERN</span>
               <span>JWT</span>
@@ -158,14 +221,16 @@ const Port = () => {
       <section className="contact-section" id="contact">
         <div className="section-header">
           <p className="section-label">Get In Touch</p>
-          <h2>Let's Work Together</h2>
+          <h2>Contact Me</h2>
         </div>
 
         <div className="contact-content">
           <p>
-            Have a project in mind? Let's create something amazing together.
+            Thank you for visiting my portfolio! If you're interested in collaborating on a MERN stack project, 
+            have any questions, or just want to discuss web development, feel free to reach out. I'm always open 
+            to new opportunities and connections.
           </p>
-          <button className="btn-primary">Send Me an Email</button>
+          <a href="mailto:shalusahala706@gmail.com" className="btn-primary">Send Me an Email</a>
         </div>
       </section>
     </div>
