@@ -1,5 +1,5 @@
+import "@fortawesome/fontawesome-free/css/all.min.css";
 import "./Port.css";
-import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css";
 
 const Port = () => {
   return (
