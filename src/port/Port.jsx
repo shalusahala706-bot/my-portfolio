@@ -5,93 +5,167 @@ const Port = () => {
     <div className="port-page">
       <nav className="navbar">
         <div className="logo">
-          <div className="logo-circle">FS</div>
-          <div className="logo-text">
-            <span>Fathimath Sahala</span>
-            <small>MERN Stack Developer</small>
-          </div>
+          <span className="logo-text">Fathimath Sahala</span>
         </div>
 
-        <a href="#meet" className="nav-link">
-          Meet Fathimath Sahala
-        </a>
+        <div className="nav-links">
+          <a href="#home" className="nav-link">
+            Home
+          </a>
+          <a href="#about" className="nav-link">
+            About
+          </a>
+          <a href="#skills" className="nav-link">
+            Skills
+          </a>
+          <a href="#contact" className="nav-link">
+            Contact
+          </a>
+        </div>
       </nav>
 
-      <section className="hero-section" id="about">
-        <div className="hero-content">
-          <p className="eyebrow">Hello, I'm</p>
-          <h1>Fathimath Sahala</h1>
-          <h2>Building beautiful web experiences with React & Node</h2>
+      <section className="hero-section" id="home">
+        <div className="hero-left">
+          <h1>
+            Crafting Seamless
+            <br />
+            Digital <span className="highlight">Experiences</span>
+          </h1>
 
-          <p className="description">
-            I am a passionate MERN Stack Developer who loves turning ideas into
-            modern, scalable, and high-performing applications with clean UI
-            and smooth user experiences.
+          <p className="hero-desc">
+            A passionate MERN Stack Developer crafting modern, scalable, and
+            high-performing web applications with beautiful UI and smooth user
+            experiences.
           </p>
 
-          <div className="hero-actions">
-            <a href="#meet" className="primary-btn">
-              Meet Fathimath Sahala
-            </a>
+          <div className="hero-buttons">
+            <button className="btn-primary">Let's Talk</button>
           </div>
 
-          <div className="highlights">
-            <span>React</span>
-            <span>Node.js</span>
-            <span>Express</span>
-            <span>MongoDB</span>
+          <div className="connect-section">
+            <p className="connect-label">CONNECT WITH ME</p>
+            <div className="social-icons">
+              <a href="#" className="social-icon">
+                <i className="fab fa-github"></i>
+              </a>
+              <a href="#" className="social-icon">
+                <i className="fab fa-linkedin"></i>
+              </a>
+              <a href="#" className="social-icon">
+                <i className="fab fa-instagram"></i>
+              </a>
+            </div>
           </div>
         </div>
 
-        <div className="hero-visual">
-          <div className="image-card">
+        <div className="hero-right">
+          <div className="profile-card">
             <img
-              src="https://wadr.org/wp-content/uploads/2023/04/Flt-Images-Who-am-I.png"
-              alt="Illustration"
+              src="/MY PHOTO.jpg"
+              alt="Fathimath Sahala"
+              className="profile-img"
             />
 
-            <div className="floating-badge">
-              <strong>Available for work</strong>
-              <span>Let's build something amazing</span>
+            <div className="floating-card card-1">
+              <p>Hi, I'm Fathimath Sahala</p>
+            </div>
+
+            <div className="decoration deco-1"></div>
+            <div className="decoration deco-2"></div>
+            <div className="decoration deco-3"></div>
+          </div>
+        </div>
+      </section>
+
+      <section className="about-section" id="about">
+        <div className="section-header">
+          <p className="section-label">About Me</p>
+          <h2>Who Am I?</h2>
+        </div>
+
+        <div className="about-content">
+          <p>
+            I'm a full-stack developer passionate about building beautiful,
+            functional web applications. With expertise in React, Node.js,
+            Express, and MongoDB, I create seamless digital experiences that
+            solve real problems.
+          </p>
+          <p>
+            My approach combines clean code, modern design principles, and a
+            deep understanding of user needs to deliver applications that are
+            not just functional, but delightful to use.
+          </p>
+        </div>
+      </section>
+
+      <section className="skills-section" id="skills">
+        <div className="section-header">
+          <p className="section-label">What I Do</p>
+          <h2>My Skills</h2>
+        </div>
+
+        <div className="skills-grid">
+          <div className="skill-card">
+            <div className="skill-icon">⚛️</div>
+            <h3>Frontend Development</h3>
+            <p>React, HTML5, CSS3, JavaScript, Responsive Design</p>
+          </div>
+
+          <div className="skill-card">
+            <div className="skill-icon">⚙️</div>
+            <h3>Backend Development</h3>
+            <p>Node.js, Express, REST APIs, Authentication</p>
+          </div>
+
+          <div className="skill-card">
+            <div className="skill-icon">🗄️</div>
+            <h3>Database</h3>
+            <p>MongoDB, Data Modeling, Database Optimization</p>
+          </div>
+        </div>
+      </section>
+
+      <section className="portfolio-section" id="portfolio">
+        <div className="section-header">
+          <p className="section-label">My Work</p>
+          <h2>Featured Projects</h2>
+        </div>
+
+        <div className="portfolio-grid">
+          <div className="portfolio-card">
+            <div className="portfolio-image"></div>
+            <h3>Project One</h3>
+            <p>Financial Tracking Application with real-time updates</p>
+            <div className="tech-tags">
+              <span>React</span>
+              <span>Express</span>
+            </div>
+          </div>
+
+          <div className="portfolio-card">
+            <div className="portfolio-image"></div>
+            <h3>Project Two</h3>
+            <p>Task management tool with collaborative features</p>
+            <div className="tech-tags">
+              <span>MERN</span>
+              <span>JWT</span>
+              <span>Responsive</span>
             </div>
           </div>
         </div>
       </section>
 
-      <section id="meet" className="about-section">
-        <div className="about-grid">
-          <div className="about-content">
-            <p className="eyebrow">About me</p>
-            <h3>Meet Fathimath Sahala</h3>
+      <section className="contact-section" id="contact">
+        <div className="section-header">
+          <p className="section-label">Get In Touch</p>
+          <h2>Let's Work Together</h2>
+        </div>
 
-            <p className="about-text">
-              I’m a passionate full-stack developer who enjoys turning ideas into
-              modern, responsive, and user-friendly web applications.
-            </p>
-
-            <p className="about-text">
-              My work blends clean UI design, smooth performance, and reliable
-              backend logic to create experiences that feel both beautiful and
-              practical.
-            </p>
-
-            <div className="about-list">
-              <span>Frontend Development</span>
-              <span>Backend Development</span>
-              <span>UI/UX Focused</span>
-              <span>Problem Solving</span>
-            </div>
-          </div>
-
-          <div className="about-card">
-            <h4>What I bring</h4>
-            <ul>
-              <li>React, Node.js, Express, and MongoDB</li>
-              <li>Responsive and modern UI design</li>
-              <li>Fast, scalable web solutions</li>
-              <li>Clean code and maintainable architecture</li>
-            </ul>
-          </div>
+        <div className="contact-content">
+          <p>
+            Have a project in mind? Let's create something amazing together.
+          </p>
+          <button className="btn-primary">Send Me an Email</button>
         </div>
       </section>
     </div>
