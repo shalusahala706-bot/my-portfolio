@@ -1,4 +1,5 @@
 import "./Port.css";
+import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css";
 
 const Port = () => {
   return (
@@ -110,7 +111,7 @@ const Port = () => {
             </div>
 
             <div className="floating-card card-2">
-              <p>MERN Stack Expert</p>
+              <p>MERN</p>
             </div>
 
             <div className="decoration deco-1"></div>
@@ -163,13 +164,13 @@ const Port = () => {
           <div className="skill-card">
             <div className="skill-icon">🗄️</div>
             <h3>Database</h3>
-            <p>MongoDB, Mongoose, Data Modeling, Optimization</p>
+            <p>MongoDB, Mongoose</p>
           </div>
 
           <div className="skill-card">
             <div className="skill-icon">🚀</div>
             <h3>Deployment</h3>
-            <p>Heroku, Vercel, Git, GitHub, CI/CD Basics</p>
+            <p>Vercel, Git, GitHub</p>
           </div>
         </div>
       </section>
@@ -183,28 +184,15 @@ const Port = () => {
         <div className="portfolio-grid">
           <div className="portfolio-card">
             <div className="portfolio-image"></div>
-            <h3>E-Commerce Platform</h3>
-            <p>Full-featured e-commerce application with payment integration and real-time updates</p>
+            <h3>Finance Tracker</h3>
+            <p>A simple application to track personal finances and expenses.</p>
             <div className="tech-tags">
               <span>React</span>
               <span>Node.js</span>
-              <span>MongoDB</span>
-              <span>Stripe</span>
             </div>
           </div>
 
-          <div className="portfolio-card">
-            <div className="portfolio-image"></div>
-            <h3>Real-Time Chat App</h3>
-            <p>Collaborative chat application with socket.io for instant messaging</p>
-            <div className="tech-tags">
-              <span>React</span>
-              <span>Socket.io</span>
-              <span>Express</span>
-              <span>MongoDB</span>
-            </div>
-          </div>
-
+          
           <div className="portfolio-card">
             <div className="portfolio-image"></div>
             <h3>Task Management Tool</h3>
